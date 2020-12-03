@@ -689,7 +689,7 @@ var QRCode;
             let id = document.getElementById('user_id')
             let key = document.getElementById('user_key')
             let barcode = document.getElementById('qrcode')
-            let qr = new QRCode(barcode, { width: 100, height: 100, useSVG: true })
+            let qr = new QRCode(barcode, { width: 200, height: 200, useSVG: true })
 
             let data_draw = function() {
                 if (!localStorage.getItem('user_id')) { return }
